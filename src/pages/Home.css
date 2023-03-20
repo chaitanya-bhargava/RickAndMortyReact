@@ -2,14 +2,29 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 100%;
+    width: 50%;
 }
 .home-text{
     font-size: x-large;
+    text-align: justify;
+    width: 50%;
 }
-
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
 @media screen and (max-width:950px){
     .button-list{
         flex-direction: column;
+    }
+    .home-text{
+        font-size: medium;
+        width: 100%;
     }
 }

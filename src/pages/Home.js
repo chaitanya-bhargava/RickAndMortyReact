@@ -3,7 +3,7 @@ import Heading from "../components/Heading";
 import './Home.css';
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Heading text="Home" />
       <p className="home-text">
         This website uses the Rick and Morty API to fetch info about Characters, Locations and Episodes and display them in the form of grids on separate pages. <br/>
@@ -11,8 +11,8 @@ const Home = () => {
         ReactRouter<br/>
         API calls<br/>
         CSS Grid<br/>
-        Framer Motion<br/>
-        WUBBA LUBBA DUB DUB! 
+        Find more such projects on my github: <a href="https://github.com/chaitanya-bhargava">https://github.com/chaitanya-bhargava</a><br/>
+        <b>WUBBA LUBBA DUB DUB!</b>
       </p>
       <div className="button-list">
         <Button text="Characters"/>
