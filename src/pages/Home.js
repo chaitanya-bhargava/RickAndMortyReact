@@ -11,7 +11,7 @@ const Home = () => {
         ReactRouter<br/>
         API calls<br/>
         CSS Grid<br/>
-        Find more such projects on my github: <a href="https://github.com/chaitanya-bhargava">https://github.com/chaitanya-bhargava</a><br/>
+        Find more such projects on my github: <a target="_blank" href="https://github.com/chaitanya-bhargava">https://github.com/chaitanya-bhargava</a><br/>
         <b>WUBBA LUBBA DUB DUB!</b>
       </p>
       <div className="button-list">
