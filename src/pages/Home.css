@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 50%;
+    width: 70%;
 }
 .home-text{
     font-size: x-large;
     text-align: justify;
-    width: 100%;
+    width: 50%;
 }
 .home{
     display: flex;
